@@ -1,0 +1,31 @@
+name: A review went wrong
+description: The skill missed a problem, flagged safe code, ranked a finding wrong or gave the wrong verdict.
+labels: [review]
+body:
+  - type: dropdown
+    id: what
+    attributes:
+      label: What went wrong
+      options: [Missed a problem, Flagged safe code, Wrong severity, Wrong verdict or plain-language line, Reviewed the wrong thing, Something else]
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: The code
+      description: A small copy that shows it, made up or yours to share. Remove keys, tokens and personal data.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual
+      description: What the review should have said, what it said, and how you know.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Agent and model
+      placeholder: Claude Code, Sonnet 5.5
