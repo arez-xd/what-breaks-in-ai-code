@@ -181,8 +181,7 @@ A review with twenty style notes buries the two that matter. Nits and places tha
 
 ## Related
 
-- [Blind Test](https://github.com/arez-xd/blind-test): proves whether a skill, a harness or an MCP server helps, with a key written before any run; the [Agensi edition](https://agensi.io/r/ADAMREEL?to=/skills/blind-test) adds a map of what the agent finds without a skill.
-- [Product Audit](https://agensi.io/r/ADAMREEL?to=/skills/product-audit): a read-only audit of a product you own, from UX and accessibility to the design system and security.
+- [Blind Test](https://github.com/arez-xd/blind-test): proves whether a skill, a harness or an MCP server helps, with a key written before any run.
 - [Under the Hood](https://github.com/arez-xd/under-the-hood): check an online service before you pay for it.
 
 ## License
